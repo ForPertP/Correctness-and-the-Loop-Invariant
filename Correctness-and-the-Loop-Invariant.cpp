@@ -33,7 +33,7 @@ void show_value(const T& arr)
 }
 
 
-void insertionSort2(int n, vector<int> arr)
+void insertionSort(int n, vector<int> arr)
 {
     for (int i = 1; i < n; ++i)
     {
@@ -71,7 +71,7 @@ int main()
         arr[i] = arr_item;
     }
 
-    insertionSort2(n, arr);
+    insertionSort(n, arr);
 
     return 0;
 }
