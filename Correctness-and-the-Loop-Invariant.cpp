@@ -25,9 +25,11 @@ void insertionSort2(int n, vector<int> arr)
             --j;
         }
         arr[j + 1] = key;
-        show_value(arr);
     }
+    
+    show_value(arr);
 }
+
 
 int main()
 {
