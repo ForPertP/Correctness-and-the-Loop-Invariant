@@ -19,3 +19,21 @@ class Solution
 
         ShowArray(arr);
     }
+
+    static void ShowArray(int[] arr)
+    {
+        Console.WriteLine(string.Join(" ", arr));
+    }
+
+    static void Main()
+    {
+        int n = int.Parse(Console.ReadLine());
+        int[] arr = Console.ReadLine()
+                           .Trim()
+                           .Split(' ')
+                           .Select(int.Parse)
+                           .ToArray();
+
+        InsertionSort2(n, arr);
+    }
+}
